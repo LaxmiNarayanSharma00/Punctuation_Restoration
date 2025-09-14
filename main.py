@@ -87,6 +87,8 @@ def inference(args):
     restorer = PunctuationRestorer(model_path=args.model_path)
     restored_text = restorer.restore_punctuation(args.text)
     print("Input Text: ", args.text)
+    print("*"*50)
+    print("*"*50)
     print("Restored Text: ", restored_text)
 
 

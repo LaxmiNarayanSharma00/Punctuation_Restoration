@@ -65,19 +65,44 @@ git clone [https://github.com/LaxmiNarayanSharma00/Punctuation_Restoration]
 ## 📁 Project Structure
 
 ```
-punctuation-restoration/
-├── src/
-│   ├── model.py           # BERT-based model architecture
-│   ├── dataset.py         # Dataset preprocessing and loading
-│   ├── trainer.py         # Training loop with validation
-│   ├── inference.py       # Punctuation restoration inference
-│   └── utils.py           # Utility functions and helpers
-├── data/
-│   └── mental_health_dataset.csv
-├── checkpoints/           # Model checkpoints directory
-├── main.py               # Main training and inference script
-├── requirements.txt      # Project dependencies
-└── README.md            # This file
+punctuation_restoration/
+├── checkpoints/                # Model checkpoints and configs
+│   ├── best_model.pt
+│   └── config.yaml
+│
+├── data/                       # Datasets and preprocessing scripts
+│   ├── format.py
+│   ├── input_text.txt
+│   ├── mental_health_dataset.csv
+│   └── mental_health_dataset2.csv
+│
+├── frontend/                   # Simple web interface
+│   ├── index.html
+│   └── script.js
+│
+├── images/                     # Project images/banners
+│   ├── project_banner.png
+│   └── project_banner2.png
+│
+├── notebooks/                  # Jupyter notebooks
+│   └── eda_and_training.ipynb
+│
+├── src/                        # Core source code
+│   ├── dataset.py
+│   ├── inference.py
+│   ├── model.py
+│   ├── trainer.py
+│   ├── utils.py
+│   └── __init__.py
+│
+├── .gitignore                  # Git ignore rules
+├── final_report.pdf             # Project report
+├── main.py                      # Main entry script
+├── requirements.txt             # Dependencies
+├── server.py                    # API server (FastAPI/Uvicorn)
+├── train.py                     # Training script
+└── README.md                    # Documentation
+
 ```
 
 ## 🚀 Quick Start

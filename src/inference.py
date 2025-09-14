@@ -29,7 +29,7 @@ class PunctuationRestorer:
         self.model.eval()
 
         self.tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-        print(self.model.classifier.weight[:3])  # just check a few rows
+        # print(self.model.classifier.weight[:3])  # just check a few rows
 
 
     def restore_punctuation(self, text, max_length=128):
