@@ -1,7 +1,7 @@
 # Punctuation Restoration for Mental Health Conversations
 
 <p align="center">
-  <img src="images/project_banner.png" alt="Project Banner" />
+  <img src="images/project_banner2.png" alt="Project Banner" />
 </p>
 
 A BERT-based neural network system for automatic punctuation restoration in mental health conversation datasets. This project addresses the critical need for accurate punctuation in therapeutic dialogue systems, achieving 84% F1-score through advanced deep learning techniques.
